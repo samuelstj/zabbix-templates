@@ -14,7 +14,7 @@
 # chmod 0600 ~/.pgpass
 #-------------------------------------
 # Habilit this session in zabbix_agentd.conf
-# Create a file in /etc/zabbix/zabbix_agent.d/userparameter_postgres.conf and add the following content:
+# Create a file in /etc/zabbix/zabbix_agentd.d/userparameter_postgres.conf and add the following content:
 # UserParameter=pgsql[*],/etc/zabbix/scripts/pgsql.sh "$1" "$2" "$3"
 # ------------------------------------
 #
