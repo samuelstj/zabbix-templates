@@ -1,4 +1,4 @@
 zabbix-templates
 ================
 
-Templates para Zabbix
+Templates para Zabbix ( apache, mysql, postgresql)
