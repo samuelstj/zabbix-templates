@@ -150,7 +150,7 @@ case $CASE_VALUE in
     echo "$VAR"|grep "Scoreboard:"| awk '{print $2}'| awk 'BEGIN { FS = "." } ; { print NF-1 }'
     rval=$?;;
 'Version')
-    httpd -v | grep Apache | awk '{print $3}' | awk -F"/" '{print $2}'
+    apachectl -v | grep Apache | awk '{print $3}' | awk -F"/" '{print $2}'
     exit $rval;;
 'ScriptVersion')
     echo "$apachever"
